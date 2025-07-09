@@ -1,4 +1,4 @@
-# 🧠 Null Theory
+#  Null Theory
 
 > **Hello, Null. Hello, World.**
 
