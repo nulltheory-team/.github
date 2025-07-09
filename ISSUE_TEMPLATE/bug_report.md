@@ -1,45 +1,63 @@
+---
 name: 🐞 Bug Report
-description: Help us squash bugs by reporting issues clearly!
-title: "[Bug] <short description>"
+about: Help us track down bugs and improve your experience
+title: "[Bug] <brief description>"
 labels: [bug]
-body:
-  - type: markdown
-    attributes:
-      value: |
-        ### 👋 Thanks for helping improve our project!
-        Please fill out the following details to help us understand and fix the issue faster.
+---
 
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: 💥 What went wrong?
-      description: Describe the issue in detail. What did you expect to happen, and what actually happened?
-      placeholder: When I tap the save button, the app crashes with an error...
-    validations:
-      required: true
+## 👋 Hello from Team NullTheory!
 
-  - type: textarea
-    id: steps
-    attributes:
-      label: 🧪 Steps to Reproduce
-      description: Help us reproduce the issue by listing clear steps.
-      placeholder: |
-        1. Open the app
-        2. Go to the "Settings" screen
-        3. Tap on "Save" without entering anything
-        4. App crashes
-    validations:
-      required: true
+Thanks for taking the time to report a bug.  
+The more details you share, the faster we can squash it! 🛠️
 
-  - type: input
-    id: version
-    attributes:
-      label: 📱 App Version and OS
-      placeholder: e.g., FlatFund v1.2.1 on Android 14
+---
 
-  - type: textarea
-    id: logs
-    attributes:
-      label: 📄 Logs or Screenshots (Optional)
-      description: If possible, include error logs or screenshots that show the problem.
-      placeholder: Drag and drop images or paste logs here.
+### 💥 What went wrong?
+
+_Describe what happened and what you expected to happen._
+
+> Example:  
+> - I expected the "Save" button to store my changes, but it froze the app.  
+> - The screen went black after tapping “Submit”.
+
+---
+
+### 🧪 Steps to Reproduce
+
+_Provide clear steps so we can replicate the bug._
+
+> Example:  
+> 1. Open the app  
+> 2. Go to Profile → Edit Info  
+> 3. Enter emoji in the name field  
+> 4. Tap “Save”  
+> 5. App crashes
+
+---
+
+### 📱 App Version & Platform
+
+> Example:  
+> FlatFund v1.3.2 on Android 14 (Pixel 7)  
+> or  
+> FlatFund v1.3.2 on iOS 17.1 (iPhone 13)
+
+---
+
+### 🧾 Logs / Screenshots / Video
+
+_Paste any error logs or upload screenshots/video that help explain the issue._
+
+> You can drag & drop files directly here, or paste from Logcat / Xcode.
+
+---
+
+### 💡 Any Suggestions?
+
+_Optional: Got a hunch or idea to fix it?_  
+> Example: Maybe the crash happens when the input field is empty.
+
+---
+
+Thanks for helping us improve! 🧠💡  
+– *NullTheory Dev Team*
